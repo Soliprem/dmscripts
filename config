@@ -12,7 +12,7 @@
 # DMENU="rofi -dmenu -i -p"
 # DMENU="fuzzel -d"
 # DMENU="tofi --prompt-text"
-DMENU="walker --dmenu -fpk"
+DMENU="walker --dmenu -fp "
 
 # DMBROWSER="env GDK_BACKEND=x11 surf"
 DMBROWSER="zen"
