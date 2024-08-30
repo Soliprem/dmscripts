@@ -9,14 +9,16 @@
 
 # -p is needed as we use prompts, alternative programs have to handle prompts well.
 
-DMENU="rofi -dmenu -i -p"
+# DMENU="rofi -dmenu -i -p"
+# DMENU="fuzzel -d"
+DMENU="tofi --prompt-text"
 
 # DMBROWSER="env GDK_BACKEND=x11 surf"
 DMBROWSER="qutebrowser"
 # DMBROWSER="vimb"
 
 # DMTERM="st -e"
-DMTERM="alacritty -e"
+DMTERM="foot"
 
 # DMEDITOR="emacsclient -c -a emacs"
 DMEDITOR="${DMTERM} nvim"
